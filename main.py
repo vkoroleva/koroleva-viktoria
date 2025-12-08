@@ -309,7 +309,7 @@ def main():
     print("\n   Первые 5 строк submission:")
     print(catboost_submission.head())
 
-    create_submission(predictions)
+    create_submission(catboost_submission)
 
     print("\n" + "=" * 50)
     print("TRAINING COMPLETED SUCCESSFULLY!")
